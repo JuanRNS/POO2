@@ -6,7 +6,7 @@ public class Patente {
         int pontos = 0;
         int partidas = 10;
         int partidasfeitas = 0;
-        String letra;
+        String letra = "";
         while (partidasfeitas < partidas) {
             System.out.println("Digite para sua partida v para vitoria, d para derrota, e para empate: ");
             letra = scan.nextLine();
